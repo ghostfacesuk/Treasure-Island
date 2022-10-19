@@ -23,8 +23,7 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 print("Welcome to Treasure Island.")
 print("Your mission is to find the treasure.\n") 
 
-junction = input('You have wandered for several hours down a beaten path and the trail splits here. Looking left you see a narrow gravel path heading towards a river. Looking right you see a stone path heading towards a clearing...\n\nGo "left" or go "right?"\n')
-junction = junction.lower()
+junction = input('You have wandered for several hours down a beaten path and the trail splits here. Looking left you see a narrow gravel path heading towards a river. Looking right you see a stone path heading towards a clearing...\n\nGo "left" or go "right?"\n').lower()
 
 if junction == str("left"):
     print("\nYou make your way down the narrow gravel path and reach the river. The current looks strong and the water seems deep. In the distance you hear movement coming from the dense woodland...")
@@ -33,8 +32,7 @@ else:
     input("\nGAME OVER YEAH!!!")
     exit()
 
-junction = input('\n\nDo you "wait" or do you "cross" the river?\n')
-junction = junction.lower()
+junction = input('\n\nDo you "wait" or do you "cross" the river?\n').lower()
 
 if junction == str("wait"):
     print("\nAs you wait you spot a small wooden brige in the far distance. You head over and cross the bridge. There is another trail which you decide to follow. The trail takes you to a giant stone wall. The wall has three doors all different in colour...")
@@ -43,8 +41,7 @@ else:
     input("\nGAME OVER YEAH!!!")
     exit()
 
-junction = input('\n\nWhich door do you decide to try, "red", "blue", or "yellow"?\n')
-junction = junction.lower()
+junction = input('\n\nWhich door do you decide to try, "red", "blue", or "yellow"?\n').lower()
 
 if junction == str("yellow"):
     print("You open the yellow door and find a massive chest of treasure. Well done!")
